@@ -1,0 +1,2 @@
+# initial_configurations_for_nginx_server
+Initial configurations for nginx server
