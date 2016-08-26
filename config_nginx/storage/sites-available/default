@@ -1,0 +1,7 @@
+server {
+  listen 80;
+  access_log off;
+  server_name
+    cdn.your_domain.com;
+  root /home/your_domain/public_html/railsapp/storage;
+}

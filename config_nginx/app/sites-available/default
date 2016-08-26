@@ -1,0 +1,11 @@
+server {
+  listen 80;
+  access_log off;
+  server_name
+    your_domain.com
+    www.your_domain.com;
+  root /home/your_domain/public_html/railsapp/current/public;
+  passenger_enabled on;
+  rails_env production;
+  passenger_ruby /home/your_domain/.rvm/gems/ruby-2.3.1/wrappers/ruby;
+}

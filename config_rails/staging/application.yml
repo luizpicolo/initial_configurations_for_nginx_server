@@ -1,0 +1,16 @@
+# Configuration all env mail
+ADDRESS: ''
+PORT: ''
+DOMAIN: ''
+USER_NAME: ''
+PASSWORD: ''
+
+# From email
+FROM_MAIL: ''
+
+# Paths and URls
+UPLOAD_HOST: ''
+SFTP_FOLDER: ''
+SFTP_HOST: ''
+SFTP_USER: ''
+SFTP_PASSWORD: ''
