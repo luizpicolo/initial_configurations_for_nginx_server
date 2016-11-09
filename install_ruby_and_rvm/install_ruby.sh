@@ -7,5 +7,6 @@ rvm requirements &&
 rvm install 2.3.1 &&
 rvm use 2.3.1 --default &&
 rvm rubygems current &&
+rvm @global do gem install bundle --no-ri &&
 ssh-keygen &&
 cat ~/.ssh/id_rsa.pub
